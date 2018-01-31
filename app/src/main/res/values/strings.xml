@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Rastreamento de Tempo</string>
+    <string name="btn_login">Entrar</string>
+    <string name="user">Nome de Usuário</string>
+    <string name="pass">Senha</string>
+    <string name="title_mark_time">Marcar Hora</string>
+    <string name="title_about">Sobre</string>
+    <string name="title_hours_pointed">Horas Apontadas</string>
+    <string name="title_exit">Sair</string>
+    <string name="text_hour">08:58</string>
+    <string name="time_zone">"GTM"</string>
 </resources>

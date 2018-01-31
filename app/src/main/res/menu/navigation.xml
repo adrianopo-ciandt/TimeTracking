@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_mark_time"
+        android:icon="@mipmap/ic_mark_time"
+        android:title="@string/title_mark_time"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/navigation_hours_pointed"
+        android:icon="@mipmap/ic_hours_pointed"
+        android:title="@string/title_hours_pointed"
+        app:showAsAction="always|withText"/>
+
+</menu>
