@@ -61,5 +61,14 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation "com.android.support.test:runner:$runnerVersion"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$espressoVersion"
+    androidTestImplementation "com.android.support.test.espresso:espresso-intents:$espressoVersion"
+    androidTestImplementation("com.android.support.test.espresso:espresso-contrib:$espressoVersion") {
+        // Don't let Espresso pull in a different version of support-annotations
+        exclude module: 'com.android.support:support-annotations'
+        exclude module: 'support-v4'
+        exclude module: 'appcompat-v7'
+        exclude module: 'design'
+    }
+    androidTestImplementation 'com.squareup.spoon:spoon-client:1.6.4'
     androidTestImplementation "com.microsoft.appcenter:appium-test-extension:1.0"
 }

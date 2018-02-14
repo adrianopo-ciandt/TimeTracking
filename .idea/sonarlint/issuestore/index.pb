@@ -31,3 +31,17 @@ c
 3app/src/main/java/br/com/Presenter/HomePresenter.kt,7/3/738ed707fb79a6f2d3abbbe9cde25741c8ffa723
 V
 &app/src/main/java/br/com/model/Card.kt,b/c/bc49422ca259f97dfb2f40d05c1108438a8cbd9c
+^
+.app/src/main/res/layout/fragment_mark_time.xml,6/8/68c439389867fb3c16d39ac9901c8488bceda225
+Z
+*app/src/main/res/layout/activity_login.xml,1/f/1f7e901185d74bf05f9fcb38f9ed35ea78cd4c6e
+a
+1app/src/test/java/br/com/timetracking/BaseData.kt,2/3/238eb3482481243a0dc8ee35b04dcfd06417bcd7
+n
+>app/src/test/java/br/com/timetracking/app/robots/LoginRobot.kt,a/c/ac0fffbd2ebbc22583f8f16a2ae7d647c351873b
+f
+6app/src/test/java/br/com/timetracking/app/LoginTest.kt,6/8/6867e119958fd2cfc4c1696dcc29fb8851e17f6b
+r
+Bapp/src/test/java/br/com/timetracking/app/robots/BaseLoginRobot.kt,2/1/21c864d2ed65343ef459ec67b2d6ad7569b2183e
+m
+=app/src/test/java/br/com/timetracking/app/robots/BaseRobot.kt,f/4/f403e62131d43f72481074502232749e84587591

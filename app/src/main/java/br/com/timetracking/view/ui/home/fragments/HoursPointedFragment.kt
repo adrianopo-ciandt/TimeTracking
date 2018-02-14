@@ -34,7 +34,7 @@ class HoursPointedFragment : BaseFragment() {
     }
 
     private fun init() {
-        val c = Calendar.getInstance()
+//        val c = Calendar.getInstance()
         val mCard = Card()
         mCard.Hour =  getToday()
         val listCard = ArrayList<Card>()

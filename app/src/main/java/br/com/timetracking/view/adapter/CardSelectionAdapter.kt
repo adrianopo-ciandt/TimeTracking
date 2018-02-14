@@ -20,12 +20,12 @@ class CardSelectionAdapter(var mList: Boolean, var mCard: List<Card>) : Recycler
     }
 
     override fun onBindViewHolder(holder: CardSelectionAdapterViewHolder, position: Int) {
-        val card = mCard!![position]
+        val card = mCard[position]
         holder.tvHour?.text = card.Hour
     }
 
     override fun getItemCount(): Int {
-        return if (mList) mCard!!.size else 1
+        return if (mList) mCard.size else 1
     }
 
     class CardSelectionAdapterViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

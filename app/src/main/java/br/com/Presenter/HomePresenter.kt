@@ -27,11 +27,11 @@ class HomePresenter
         if (fragment == null) {
             return
         }
-        val fragmentManager = mActivity?.getFragmentManager()
+        val fragmentManager = mActivity?.fragmentManager
         if (fragmentManager != null) {
-            val ft = fragmentManager!!.beginTransaction()
+            val ft = fragmentManager.beginTransaction()
             if (ft != null) {
-                ft!!.replace(R.id.main_container, fragment).commit()
+                ft.replace(R.id.main_container, fragment).commit()
             }
         }
     }
