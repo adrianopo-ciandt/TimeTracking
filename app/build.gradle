@@ -71,4 +71,5 @@ dependencies {
     }
     androidTestImplementation 'com.squareup.spoon:spoon-client:1.6.4'
     androidTestImplementation "com.microsoft.appcenter:appium-test-extension:1.0"
+    implementation 'com.microsoft.appcenter:espresso-test-extension:1.2'
 }
